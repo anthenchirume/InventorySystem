@@ -10,5 +10,6 @@ Items
 ******************
 * Login Dialogue *
 ******************
-takes information from Users 
+takes information from Users table in the InveSys Database
+
 
