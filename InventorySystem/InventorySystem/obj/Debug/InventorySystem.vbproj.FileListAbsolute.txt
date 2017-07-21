@@ -1,0 +1,11 @@
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.pdb
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.xml
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.LoginDialogue.resources
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Resources.resources
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Spl4sh.resources
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.vbproj.GenerateResource.Cache
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.exe
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.xml
+D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.pdb

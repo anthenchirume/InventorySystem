@@ -1,0 +1,14 @@
+****InveSys Txt File****
+
+************
+* DataBase *
+************
+Tables
+Users
+Items
+
+******************
+* Login Dialogue *
+******************
+takes information from Users 
+
