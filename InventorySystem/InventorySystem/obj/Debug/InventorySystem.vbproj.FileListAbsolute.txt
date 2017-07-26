@@ -9,3 +9,14 @@ D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\Inven
 D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.exe
 D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.xml
 D:\SOURCE CODE\Workspace\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.pdb
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.pdb
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\bin\Debug\InventorySystem.xml
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.LoginDialogue.resources
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Resources.resources
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Spl4sh.resources
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.vbproj.GenerateResource.Cache
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.exe
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.xml
+C:\Users\Anthen94\Documents\Project\InventorySystem\InventorySystem\obj\Debug\InventorySystem.pdb

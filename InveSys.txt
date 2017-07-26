@@ -7,6 +7,9 @@ Tables
 Users
 Items
 
+checkin and checkout into Items
+save by barcode and item name and company
+
 ******************
 * Login Dialogue *
 ******************

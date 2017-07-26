@@ -22,13 +22,19 @@ Partial Class LoginDialogue
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.LblUsername = New System.Windows.Forms.Label()
         Me.LblPassword = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TbxPassword = New System.Windows.Forms.TextBox()
         Me.BtnClear = New System.Windows.Forms.Button()
         Me.BtnLogin = New System.Windows.Forms.Button()
         Me.BtnExit = New System.Windows.Forms.Button()
+        Me.SecurityBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.InventoryDataSet = New InventorySystem.inventoryDataSet()
+        Me.SecurityTableAdapter = New InventorySystem.inventoryDataSetTableAdapters.securityTableAdapter()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        CType(Me.SecurityBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.InventoryDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LblUsername
@@ -51,20 +57,13 @@ Partial Class LoginDialogue
         Me.LblPassword.TabIndex = 0
         Me.LblPassword.Text = "Password"
         '
-        'TextBox1
+        'TbxPassword
         '
-        Me.TextBox1.Location = New System.Drawing.Point(121, 74)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 20)
-        Me.TextBox1.TabIndex = 1
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(121, 34)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.TbxPassword.Location = New System.Drawing.Point(121, 74)
+        Me.TbxPassword.Name = "TbxPassword"
+        Me.TbxPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TbxPassword.Size = New System.Drawing.Size(121, 20)
+        Me.TbxPassword.TabIndex = 1
         '
         'BtnClear
         '
@@ -93,33 +92,60 @@ Partial Class LoginDialogue
         Me.BtnExit.Text = "Exit"
         Me.BtnExit.UseVisualStyleBackColor = True
         '
+        'SecurityBindingSource
+        '
+        Me.SecurityBindingSource.DataMember = "security"
+        Me.SecurityBindingSource.DataSource = Me.InventoryDataSet
+        '
+        'InventoryDataSet
+        '
+        Me.InventoryDataSet.DataSetName = "inventoryDataSet"
+        Me.InventoryDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'SecurityTableAdapter
+        '
+        Me.SecurityTableAdapter.ClearBeforeFill = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(121, 33)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 5
+        '
         'LoginDialogue
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(284, 161)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.BtnLogin)
         Me.Controls.Add(Me.BtnExit)
         Me.Controls.Add(Me.BtnClear)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TbxPassword)
         Me.Controls.Add(Me.LblPassword)
         Me.Controls.Add(Me.LblUsername)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "LoginDialogue"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User Login"
+        CType(Me.SecurityBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.InventoryDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents LblUsername As System.Windows.Forms.Label
     Friend WithEvents LblPassword As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents TbxPassword As System.Windows.Forms.TextBox
     Friend WithEvents BtnClear As System.Windows.Forms.Button
     Friend WithEvents BtnLogin As System.Windows.Forms.Button
     Friend WithEvents BtnExit As System.Windows.Forms.Button
+    Friend WithEvents InventoryDataSet As InventorySystem.inventoryDataSet
+    Friend WithEvents SecurityBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents SecurityTableAdapter As InventorySystem.inventoryDataSetTableAdapters.securityTableAdapter
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
 
 End Class
