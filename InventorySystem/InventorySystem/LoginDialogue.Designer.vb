@@ -89,7 +89,7 @@ Partial Class LoginDialogue
         Me.BtnExit.Name = "BtnExit"
         Me.BtnExit.Size = New System.Drawing.Size(58, 22)
         Me.BtnExit.TabIndex = 4
-        Me.BtnExit.Text = "Exit"
+        Me.BtnExit.Text = "Cancel"
         Me.BtnExit.UseVisualStyleBackColor = True
         '
         'SecurityBindingSource

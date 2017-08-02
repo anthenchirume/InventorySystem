@@ -58,13 +58,9 @@ Public Class LoginDialogue
             End While
 
             If count = 1 Then
-                MessageBox.Show("Username and password are correct")
-
-
-            ElseIf count > 1 Then
-                MessageBox.Show("Username and password are duplicate")
-
-
+                ' MessageBox.Show("Username and password are correct")
+                Me.Hide()
+                MainWindow.Show()
 
             Else
                 MessageBox.Show("Incorrect username and password !!!")

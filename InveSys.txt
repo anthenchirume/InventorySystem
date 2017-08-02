@@ -16,3 +16,9 @@ save by barcode and item name and company
 takes information from Users table in the InveSys Database
 
 
+
+
+
+
+onclick Users on Edit in MainWondow will EditUsers.show()
+onclick BtnNewUser on EditUsers.form in EditUsers
