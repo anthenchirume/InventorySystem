@@ -59,6 +59,7 @@ Partial Class LoginDialogue
         '
         'TbxPassword
         '
+        Me.TbxPassword.BackColor = System.Drawing.Color.Bisque
         Me.TbxPassword.Location = New System.Drawing.Point(121, 74)
         Me.TbxPassword.Name = "TbxPassword"
         Me.TbxPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -108,6 +109,7 @@ Partial Class LoginDialogue
         '
         'ComboBox1
         '
+        Me.ComboBox1.BackColor = System.Drawing.Color.Bisque
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(121, 33)
         Me.ComboBox1.Name = "ComboBox1"
@@ -118,7 +120,7 @@ Partial Class LoginDialogue
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackColor = System.Drawing.Color.PeachPuff
         Me.ClientSize = New System.Drawing.Size(284, 161)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.BtnLogin)
@@ -127,7 +129,7 @@ Partial Class LoginDialogue
         Me.Controls.Add(Me.TbxPassword)
         Me.Controls.Add(Me.LblPassword)
         Me.Controls.Add(Me.LblUsername)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "LoginDialogue"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User Login"

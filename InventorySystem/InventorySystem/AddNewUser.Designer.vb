@@ -22,130 +22,144 @@ Partial Class AddUser
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.LblID = New System.Windows.Forms.Label()
+        Me.LblUsername = New System.Windows.Forms.Label()
+        Me.LblPassword = New System.Windows.Forms.Label()
+        Me.LblLevel = New System.Windows.Forms.Label()
+        Me.TbxID = New System.Windows.Forms.TextBox()
+        Me.TbxUsername = New System.Windows.Forms.TextBox()
+        Me.TbxPassword = New System.Windows.Forms.TextBox()
+        Me.BtnAdd = New System.Windows.Forms.Button()
+        Me.BtnCancel = New System.Windows.Forms.Button()
+        Me.CbxLevel = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
-        'Label1
+        'LblID
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(30, 36)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(18, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ID"
+        Me.LblID.AutoSize = True
+        Me.LblID.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblID.Location = New System.Drawing.Point(21, 36)
+        Me.LblID.Name = "LblID"
+        Me.LblID.Size = New System.Drawing.Size(20, 13)
+        Me.LblID.TabIndex = 0
+        Me.LblID.Text = "ID"
         '
-        'Label2
+        'LblUsername
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(30, 78)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 13)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Username"
+        Me.LblUsername.AutoSize = True
+        Me.LblUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblUsername.Location = New System.Drawing.Point(21, 78)
+        Me.LblUsername.Name = "LblUsername"
+        Me.LblUsername.Size = New System.Drawing.Size(63, 13)
+        Me.LblUsername.TabIndex = 0
+        Me.LblUsername.Text = "Username"
         '
-        'Label3
+        'LblPassword
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(30, 125)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 13)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Password"
+        Me.LblPassword.AutoSize = True
+        Me.LblPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPassword.Location = New System.Drawing.Point(21, 125)
+        Me.LblPassword.Name = "LblPassword"
+        Me.LblPassword.Size = New System.Drawing.Size(61, 13)
+        Me.LblPassword.TabIndex = 0
+        Me.LblPassword.Text = "Password"
         '
-        'Label4
+        'LblLevel
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(30, 169)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(33, 13)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Level"
+        Me.LblLevel.AutoSize = True
+        Me.LblLevel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblLevel.Location = New System.Drawing.Point(21, 168)
+        Me.LblLevel.Name = "LblLevel"
+        Me.LblLevel.Size = New System.Drawing.Size(38, 13)
+        Me.LblLevel.TabIndex = 0
+        Me.LblLevel.Text = "Level"
         '
-        'TextBox1
+        'TbxID
         '
-        Me.TextBox1.Location = New System.Drawing.Point(87, 29)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(95, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.TbxID.BackColor = System.Drawing.Color.Bisque
+        Me.TbxID.Location = New System.Drawing.Point(87, 29)
+        Me.TbxID.Name = "TbxID"
+        Me.TbxID.Size = New System.Drawing.Size(95, 20)
+        Me.TbxID.TabIndex = 1
         '
-        'TextBox2
+        'TbxUsername
         '
-        Me.TextBox2.Location = New System.Drawing.Point(87, 71)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(95, 20)
-        Me.TextBox2.TabIndex = 1
+        Me.TbxUsername.BackColor = System.Drawing.Color.Bisque
+        Me.TbxUsername.Location = New System.Drawing.Point(87, 71)
+        Me.TbxUsername.Name = "TbxUsername"
+        Me.TbxUsername.Size = New System.Drawing.Size(95, 20)
+        Me.TbxUsername.TabIndex = 1
         '
-        'TextBox3
+        'TbxPassword
         '
-        Me.TextBox3.Location = New System.Drawing.Point(87, 118)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(95, 20)
-        Me.TextBox3.TabIndex = 1
+        Me.TbxPassword.BackColor = System.Drawing.Color.Bisque
+        Me.TbxPassword.Location = New System.Drawing.Point(87, 118)
+        Me.TbxPassword.Name = "TbxPassword"
+        Me.TbxPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TbxPassword.Size = New System.Drawing.Size(95, 20)
+        Me.TbxPassword.TabIndex = 1
         '
-        'Button1
+        'BtnAdd
         '
-        Me.Button1.Location = New System.Drawing.Point(217, 59)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(97, 32)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "SAVE"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAdd.Location = New System.Drawing.Point(217, 59)
+        Me.BtnAdd.Name = "BtnAdd"
+        Me.BtnAdd.Size = New System.Drawing.Size(97, 32)
+        Me.BtnAdd.TabIndex = 2
+        Me.BtnAdd.Text = "Add"
+        Me.BtnAdd.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnCancel
         '
-        Me.Button2.Location = New System.Drawing.Point(217, 118)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(97, 32)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "CANCEL"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCancel.Location = New System.Drawing.Point(217, 118)
+        Me.BtnCancel.Name = "BtnCancel"
+        Me.BtnCancel.Size = New System.Drawing.Size(97, 32)
+        Me.BtnCancel.TabIndex = 2
+        Me.BtnCancel.Text = "Cancel"
+        Me.BtnCancel.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'CbxLevel
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(87, 160)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(95, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.CbxLevel.BackColor = System.Drawing.Color.Bisque
+        Me.CbxLevel.FormattingEnabled = True
+        Me.CbxLevel.Items.AddRange(New Object() {"Root", "Admin", "Manager", "Operator"})
+        Me.CbxLevel.Location = New System.Drawing.Point(87, 160)
+        Me.CbxLevel.Name = "CbxLevel"
+        Me.CbxLevel.Size = New System.Drawing.Size(95, 21)
+        Me.CbxLevel.TabIndex = 3
         '
         'AddUser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.PeachPuff
         Me.ClientSize = New System.Drawing.Size(342, 196)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.CbxLevel)
+        Me.Controls.Add(Me.BtnCancel)
+        Me.Controls.Add(Me.BtnAdd)
+        Me.Controls.Add(Me.TbxPassword)
+        Me.Controls.Add(Me.TbxUsername)
+        Me.Controls.Add(Me.TbxID)
+        Me.Controls.Add(Me.LblLevel)
+        Me.Controls.Add(Me.LblPassword)
+        Me.Controls.Add(Me.LblUsername)
+        Me.Controls.Add(Me.LblID)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "AddUser"
         Me.Text = "Add User"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents LblID As System.Windows.Forms.Label
+    Friend WithEvents LblUsername As System.Windows.Forms.Label
+    Friend WithEvents LblPassword As System.Windows.Forms.Label
+    Friend WithEvents LblLevel As System.Windows.Forms.Label
+    Friend WithEvents TbxID As System.Windows.Forms.TextBox
+    Friend WithEvents TbxUsername As System.Windows.Forms.TextBox
+    Friend WithEvents TbxPassword As System.Windows.Forms.TextBox
+    Friend WithEvents BtnAdd As System.Windows.Forms.Button
+    Friend WithEvents BtnCancel As System.Windows.Forms.Button
+    Friend WithEvents CbxLevel As System.Windows.Forms.ComboBox
 End Class
